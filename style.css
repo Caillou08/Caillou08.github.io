@@ -46,3 +46,25 @@ p{
 .green{
     color: #7ee0d2;    
 }
+@media screen and (max-device-width:480px) {
+    .header{
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+    }
+    .header a{
+        padding: 4px;
+    }
+    #intro{
+        flex-direction: column;
+    }    
+    #presentation{
+        flex-direction: column;
+    }
+    #presentation .picture{
+        order: 2;
+    }
+    *{
+        margin: 4px;
+    }
+}
