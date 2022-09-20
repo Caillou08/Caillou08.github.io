@@ -51,9 +51,12 @@ p{
         height: fit-content;
         display: flex;
         flex-direction: column;
+        height: fit-content;
     }
     .header a{
         padding: 4px;
+        border: solid;
+        border-radius: 10px;
     }
     #intro{
         flex-direction: column;
