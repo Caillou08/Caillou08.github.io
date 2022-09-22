@@ -84,6 +84,7 @@ p {
         padding: 4px;
         border: solid;
         border-radius: 10px;
+        text-align: center;
     }
 
     * {
