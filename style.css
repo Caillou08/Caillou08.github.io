@@ -63,17 +63,6 @@ p {
 }
 
 @media screen and (max-device-width:480px) {
-    #header {
-        height: fit-content;
-        flex-direction: column;
-    }
-
-    #header a {
-        padding: 4px;
-        border: solid;
-        border-radius: 10px;
-    }
-
     #intro {
         flex-direction: column;
     }
@@ -84,6 +73,17 @@ p {
 
     #presentation .picture {
         order: 2;
+    }
+
+    #header {
+        height: fit-content;
+        flex-direction: column;
+    }
+
+    #header a {
+        padding: 4px;
+        border: solid;
+        border-radius: 10px;
     }
 
     * {
