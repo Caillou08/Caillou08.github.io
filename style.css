@@ -38,7 +38,7 @@
 #header a:hover {
     color: #7ee0d2;
 }
-
+    
 #header a.green:hover {
     color: #4a877e;
 }
@@ -49,7 +49,7 @@
     flex-wrap:wrap;
     width: 30%;
     height: 350px;
-    overflow: scroll;
+    overflow:auto;
 }
 
 body {
